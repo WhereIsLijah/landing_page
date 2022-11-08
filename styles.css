@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+}
+
+header{
+display: flex;
+background-color: #1F2937;
+align-items: center;
+justify-content: space-between;
+}
+
+header a{
+    color: white;
+}
+
+.logo{
+margin-left: 10%;
+cursor: pointer;
+}
+
+ul{
+    list-style: none;   
+    margin-right: 10%; 
+}
+
+ul li
+{ 
+    display: inline-block;
+    padding: 0px 20px; 
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.hero{
+padding-top: 50px;
+display: flex;
+background-color: #1F2937;
+justify-content:space-evenly;
+padding-bottom: 80px;
+}
+
+.hero_info {
+    margin-left: 5%;
+    }
+
+.hero_info h1{
+width: 40%;
+}
+
+.hero_info p{
+width: 50%;
+}
+
+.hero_img{
+
+}
+.hero_info button{
+color: white;
+background-color: #3882f6;
+border-radius: 5px;
+border: none;
+padding: 5px 25px;
+font-weight: bold;
+text-align: center;
+}
+
+.hero_info h1, p{
+color: white;
+}
+
+.second_section{
+    padding: 40px;
+    text-align: center;
+}
+
+.box_container{
+margin-top: 25px;
+display: flex;
+justify-content:center;
+
+} 
+.box_container figure{
+    align-items: center; 
+    padding: 30px;
+
+}
+.box{
+    width:150px;
+    height:150px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+figcaption{
+    text-align: center;
+    width: 140px;
+}
+
+.third_section{
+    padding: 8%;
+    background-color: #E5E7EB;
+}
+
+.third_section p{
+    align-items: center;
+    font-size: 51px;
+    text-align:justify;
+    color: black;
+}
+
+.fourth_section{
+    border: 1px solid black;
+    margin: 80px;
+    padding: 80px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    margin-right: 10%; 
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.fourth_section p,h3{
+    color: white;
+}
+
+.info_fourth {
+    margin-left: 10%;
+}
+.fourth_section button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-right: 10%; 
+    font-weight: bolder;
+}
+
+footer{
+  text-align: center;  
+  background-color: #1F2937;
+  padding: 30px;
+}
+footer p{
+    color: white;
+  }
